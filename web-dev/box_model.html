@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .box{
+            background-color: orange;
+            color: white;
+        }
+        .box1{
+            padding: 50px;
+            margin: 10px;
+            border: 7px solid red;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+        /* Margin collapse 
+        element with more margin will be consider out of 2
+        element's margin
+        "box model lecture"
+        */
+    </style>
+</head>
+<body>
+
+    <div class="box box1">
+        first Lorem ipsum dolor sit amet consectetur adipisicing.
+    </div>
+    <div class="box box2">
+        second Lorem ipsum dolor sit, amet consectetur adipisicing.
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<p title="this is a title">Lorem, ipsum dolor.</p>
+title=" 'hello' world"
+title
+
+Tag	                Description
+<abbr>	        Defines an abbreviation or acronym
+<address>	    Defines contact information for the author/owner of a document
+<bdo>	        Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	        Defines the title of a work
+<q>	            Defines a short inline quotation
+
+
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+
+background-image: url('abc.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+border-collapse: collapse;-------->Make double booder into single one in table
+Don't use while using border-radius
+
+in table use "style='width:xxx;'" (in %) for <th> and <td>
+and for height(in px) use it in <tr> tag
+
+tr:nth-child(even){
+            background-color: orange;
+        }
+
+<colgroup>
+  <col span="3" style="background-color: cyan;">
+</colgroup> ------------> to style only 3 columns of a table      
+
